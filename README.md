@@ -37,12 +37,3 @@ npm run preview
 
 Не допускается использование внешних библиотек и фреймворков, функция конвертации должна быть написана самостоятельно.
 ```
-
-## Публикация через SSH
-
-```sh
-git remote set-url origin git@github.com:thesmol/seo-xml-json.git
-git push origin main:main main:gh-pages
-```
-
-GitHub Pages публикует ветку `gh-pages`.
